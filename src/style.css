@@ -40,22 +40,33 @@ p{
 }
 
 
-.about-section{
+.content-section{
     text-align: center;
     padding: 0;
     display: inline;
     
 }
-.about-section h1{
+.content-section h1{
  font-size: 64px;
  line-height:80px;
 }
-.about-section h2{
+.content-section h2{
     font-family: var(--default-font-family);
     font-size: 18px;
 }
-.about-section-content p{
+.content-section p{
     line-height: 1.5;
+}
+.content-section h3{
+    font-size: 24px;
+    line-height: 1.5;
+    font-family: var(--default-font-family);
+}
+.content-section p{
+    font-size: 14px;
+}
+.content-section{
+    margin:30px ;
 }
 .image-fluid{
     vertical-align: middle;
